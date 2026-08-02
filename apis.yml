@@ -1,8 +1,24 @@
 aid: zenasbio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zenasbio.png
 name: Zenasbio
-description: 'Zenasbio is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Zenas BioPharma is a global clinical-stage biopharmaceutical company focused on developing
+  and delivering transformative treatments for patients with autoimmune and rare diseases. Its lead
+  candidates are obexelimab, a bifunctional monoclonal antibody that inhibits B-cell activity without
+  depleting B cells, and orelabrutinib, an oral central-nervous-system-penetrant BTK inhibitor. The
+  company serves patients, caregivers, investors, and job seekers through its corporate website; it
+  publishes no public developer portal, API, SDKs, or technical integration surface. This profile was
+  surfaced as a portfolio company of Norwest Venture Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/zenasbio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Biopharmaceutical
+- Biotechnology
+- Autoimmune
+- Therapeutics
+- Healthcare
+- Pharmaceuticals
+- Clinical-Stage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zenasbio-domain-security.yml
 - type: Website
   url: https://zenasbio.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
